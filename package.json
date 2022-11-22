@@ -4,6 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "dev": "webpack build --mode=development",
+    "build": "webpack build --mode=production",
+    "watch": "webpack build --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
